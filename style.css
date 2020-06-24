@@ -1,11 +1,11 @@
 body{
   margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 a {
   text-decoration: none;
   color: white;
-
 }
 
 .navbar {
@@ -14,4 +14,38 @@ a {
   align-items: center;
   background-color: #263343;
   padding: 8px 12px;
+}
+
+.navbar__logo {
+  fint-size: 24px;
+  color:  white;
+}
+
+.navbar__logo i {
+  color: #d49466;
+}
+
+.navbar__menu {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.navbar__menu li {
+  padding: 8px 12px;
+}
+
+.navber__menu li:hover {
+  background-color: #d49466;
+  border-radius: 4px;
+}
+
+.navbar__icons {
+  list-style: none;
+  color: white;
+  display: flex;
+}
+
+.navbar__icons li {
+  padding 8px 12px;
 }
