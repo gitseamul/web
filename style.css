@@ -35,7 +35,7 @@ a {
   padding: 8px 12px;
 }
 
-.navber__menu li:hover {
+.navbar__menu li:hover {
   background-color: #d49466;
   border-radius: 4px;
 }
@@ -62,7 +62,7 @@ a {
     width: 100%;
   }
 
-  .navber__menu {
+  .navbar__menu {
     width: 100%;
     text-align: center;
   }
