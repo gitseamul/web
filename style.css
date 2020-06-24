@@ -44,19 +44,30 @@ a {
   list-style: none;
   color: white;
   display: flex;
+  padding-left: 0;
 }
 
 .navbar__icons li {
-  padding 8px 12px;
+  padding: 8px 12px;
+}
+
+.navbar__toogleBtn {
+  display: none;
+  position: absolute;
+  right: 32px;
+  fontsize: 24px;
+  color: #d49466;
 }
 
 @media screen and (max-width: 768px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
+    padding: 8px 24px;
   }
 
   .navbar__menu {
+    dosplay: none;
     flex-direction: column;
     align-items: center;
     width: 100%;
@@ -66,4 +77,15 @@ a {
     width: 100%;
     text-align: center;
   }
+
+  .navbar__icons {
+    dosplay: none;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .navbar__toogleBtn {
+    display: block;
+  }
+
 }
